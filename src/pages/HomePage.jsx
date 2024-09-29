@@ -24,7 +24,7 @@ const HomePage = () => {
           Apart from being a full-time geek, I enjoy playing the guitar and teaching STEM subjects to school kids. 
           Scroll to learn more about my education, projects, and work experience!
         </p>
-        <a href="/path-to-your-resume" className="mt-4">Short on Time? Get My Resume.</a>
+        {/* <a href="/path-to-your-resume" className="mt-4">Short on Time? Get My Resume.</a> */}
         
         <h2>Overview</h2>
         <p>

@@ -7,9 +7,9 @@ const ContactPage = () => {
       
       {/* Text Content */}
       <div className="md:ml-8 text-left w-full md:w-1/2">
-        <h1>Whoops! Still building this page.</h1>
+        <h1>Reach Out</h1>
         <p className="mt-4">
-          Come back soon, or contact me via the contact button! 
+          Best way to contact me is at shouryasak@gmail.com. Or, use my socials from homepage.
         </p>
       </div>
     </div>
