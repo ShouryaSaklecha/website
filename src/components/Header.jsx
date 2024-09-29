@@ -30,7 +30,7 @@ const Header = () => {
 
         {/* Title as a Link */}
         <div className="flex-grow text-center md:text-left">
-          <Link to="/" className="text-xl md:text-2xl font-bold text-[#FF9F1C]">
+          <Link to="/" className="text-xl md:text-2xl text-[#FF9F1C]">
             Shourya Saklecha
           </Link>
         </div>
