@@ -11,7 +11,7 @@ const HomePage = () => {
       <img 
         src={profileImage} 
         alt="Profile" 
-        className="w-1/2 md:w-1/3 border-4 border-[#FDFFFF] shadow-lg" 
+        className="w-full md:w-1/3 border-4 border-[#FDFFFF] shadow-lg" 
       />
 
       {/* Text Content */}

@@ -9,8 +9,9 @@ const Header = () => {
 
   return (
     <header className="bg-black text-[#FF9F1C] p-4 flex flex-col md:flex-row items-center justify-between relative">
-      {/* Hamburger Menu Button */}
-      <div className="flex w-full justify-between items-center">
+      {/* Container for Title and Hamburger */}
+      <div className="flex w-full justify-between items-center md:w-auto">
+        {/* Hamburger Menu Button */}
         <button className="md:hidden flex items-center" onClick={toggleMenu}>
           <svg
             className="w-6 h-6"
@@ -26,10 +27,13 @@ const Header = () => {
             )}
           </svg>
         </button>
+
         {/* Title as a Link */}
-        <Link to="/" className={`text-xl flex-1 ${isOpen ? 'text-center' : 'text-left'}`}>
-          Shourya Saklecha
-        </Link>
+        <div className="flex-grow text-center md:text-left">
+          <Link to="/" className="text-xl md:text-2xl font-bold text-[#FF9F1C]">
+            Shourya Saklecha
+          </Link>
+        </div>
       </div>
 
       {/* Desktop Navigation */}
