@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/work" element={<WorkPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/SunswiftVT" element={<SunswiftVT />} />
+          <Route path="/sunswiftVT" element={<SunswiftVT />} />
 
           {/* Define other routes here */}
         </Routes>
