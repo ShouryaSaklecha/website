@@ -2,7 +2,7 @@ import React from "react";
 import profileImage from "../assets/profile.jpeg"; // Adjust the path based on your folder structure
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const HomePage = () => {
   return (
@@ -45,8 +45,9 @@ const HomePage = () => {
           SAT Math 99th Percentile | Outstanding International Student Scholarship UBC | University of Sydney Scholarship | Pearson Test of English: 90/90 | Peter Farell Cup: Finalist | Startmate Student Fellow
         </p>
         <h2>Building more things...find my socials in the meantime:</h2>
-                {/* Social Icons Section */}
-                <div className="mt-4 flex space-x-6">
+
+        {/* Social Icons Section */}
+        <div className="mt-4 flex space-x-6 items-center">
           <a href="https://www.linkedin.com/in/shourya-saklecha/" target="_blank" rel="noopener noreferrer" className="text-[#FDFFFF]">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
@@ -56,6 +57,13 @@ const HomePage = () => {
           <a href="https://github.com/ShouryaSaklecha" target="_blank" rel="noopener noreferrer" className="text-[#FDFFFF]">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
+
+          {/* MBSE Button */}
+          <Link to="/sunswiftVT">
+            <button className="bg-[#FDFFFF] text-black px-4 py-2 rounded-md ml-4">
+              MBSE
+            </button>
+          </Link>
         </div>
       </div>
     </div>
