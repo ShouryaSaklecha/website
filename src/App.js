@@ -6,6 +6,7 @@ import EducationPage from './pages/EducationPage';
 import ProjectsPage from './pages/ProjectsPage';
 import WorkPage from './pages/WorkPage';
 import ContactPage from './pages/ContactPage';
+import SunswiftVT from './pages/Interfacer/SunswiftVT';
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
           <Route path="/work" element={<WorkPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/SunswiftVT" element={<SunswiftVT />} />
+
           {/* Define other routes here */}
         </Routes>
       </div>
