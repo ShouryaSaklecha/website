@@ -18,34 +18,29 @@ const HomePage = () => {
       <div className="md:ml-8 text-left w-full md:w-1/2">
         <h1>Hello, I am Shourya.</h1>
         <p className="mt-4">
-          I like electronics, software engineering and, just building stuff (this website included). My work life revolves around low-latency hardware design for video processing, and uni life revolves around Electrical and Computer Engineering (UNSW). I am still a college senior, on track to graduate with honours in December 2024. 
+          Currently an FPGA Engineer building neuromorphic systems, engineered for low latency and power consumption. I work at the intersection of Software and Hardware, building a career that can fluidly move between microelectronics and software design. True full-stack. 
           <br />
-          <br />
-          Apart from being a full-time geek, I enjoy playing the guitar and teaching STEM subjects to school kids. 
-          Scroll to learn more about my education, projects, and work experience!
+          Some things I have worked on: a geo-imagery satellite, world's fastest solar vehicle (and 2 other world records), Australia's first hydrogen/solar/electric car, a novel assistive device for people with Usher's syndrome, another novel luma enhancement algorithm built on hardware. Published papers, 2x scholarships, World Solar Challenge winner, yada yada. Boring.
         </p>
         {/* <a href="/path-to-your-resume" className="mt-4">Short on Time? Get My Resume.</a> */}
         
-        <h2>Overview</h2>
+        <h2>Real Stuff</h2>
         <p>
-          Areas of Interest/Academic Exposure:
+          Things that do not revolve around my work life:
           <br />
-          My skills range from designing PCBs to hi-fidelity figma prototypes.
-          FPGA/Digital Design, Software Engineering, Electronics, Embedded Systems, Human-Computer Interaction (UX/UI Design, Cognitive Load Theory), 
-          Systems Engineering, and Project Management. True full-stack.
+          I read quite a bit. Both fiction and non-fiction, research papers even. I have been playing guitar and bass since 2012, hoping to learn piano soon. Aviation interests me (I can identify planes in the sky), so does theology and philosophy. I like teaching kids physics and computer science, so much so that I do it for free sometimes. In 2025, I am hoping to write more, and that's mainly the purpose of this website.
         </p>
 
-        <h2>My Skills:</h2>
+        <h2>Working with Me</h2>
+        I am based in Sydney, Australia for the time being. I hold a Bachelors in Electrical and Computer Engineering from UNSW, with Honours. I am resourceful in the following skills/tools:
         <p>
-          VHDL | FPGA | Assembly | Digital System Design | Microcontrollers | Python | Java | C++(20) | Javascript | HTML | CSS | React | Fusion360 CAD | PCB Design | MATLAB | Engineering Design | Figma | Bubble | UI/UX | Excel | Notion | Research
+          <b>Hardware:</b> VHDL | Xilinx FPGAs | Vivado | Vitis HLS | RTL Design | Digital System Design | Microcontrollers | Microprocessors | Verilog |  PCB Design | Matlab |  Fusion360 CAD 
+          <br /> <b>Software:</b> Python | Java | C++ (20) | Javascript | HTML | CSS | React | Git  
+          <br /> <b>Others:</b> Engineering Design | Figma | Bubble | UI/UX | Excel | Notion | Research | Formal Systems Engineering
         </p>
 
-        <h2>Notable Achievements:</h2>
-        <p>
-          SAT Math 99th Percentile | Outstanding International Student Scholarship UBC | University of Sydney Scholarship | Pearson Test of English: 90/90 | Peter Farell Cup: Finalist | Startmate Student Fellow
-        </p>
-        <h2>Building more things...find my socials in the meantime:</h2>
-
+        <h2>Getting in Touch</h2>
+        <p>Find me on:</p>
         {/* Social Icons Section */}
         <div className="mt-4 flex space-x-6 items-center">
           <a href="https://www.linkedin.com/in/shourya-saklecha/" target="_blank" rel="noopener noreferrer" className="text-[#FDFFFF]">
