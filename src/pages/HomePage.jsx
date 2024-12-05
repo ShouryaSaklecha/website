@@ -18,8 +18,8 @@ const HomePage = () => {
       <div className="md:ml-8 text-left w-full md:w-1/2">
         <h1>Hello, I am Shourya.</h1>
         <p className="mt-4">
-          Currently an FPGA Engineer building neuromorphic systems, engineered for low latency and power consumption. I work at the intersection of Software and Hardware, building a career that can fluidly move between microelectronics and software design. True full-stack. 
-          <br />
+          Currently an FPGA Engineer building neuromorphic systems, engineered for low latency and power consumption. I work at the intersection of Software and Hardware, building a career that can fluidly move between microelectronics and software design. True full-stack. </p>
+        <p className="mt-4">  
           Some things I have worked on: a geo-imagery satellite, world's fastest solar vehicle (and 2 other world records), Australia's first hydrogen/solar/electric car, a novel assistive device for people with Usher's syndrome, another novel luma enhancement algorithm built on hardware. Published papers, 2x scholarships, World Solar Challenge winner, yada yada. Boring.
         </p>
         {/* <a href="/path-to-your-resume" className="mt-4">Short on Time? Get My Resume.</a> */}
