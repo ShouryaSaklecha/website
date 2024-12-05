@@ -4,7 +4,7 @@
 
 /* Global styles for fonts and colors */
 html {
-  font-family: 'Noto Serif', serif;
+  font-family: serif;
   font-size: 20px;
   font-weight: 500;
   color: #FDFFFF; /* White text */
@@ -19,14 +19,14 @@ body {
 /* Styling for h1, h2, h3, and body text */
 h1 {
   font-size: 64px; /* Larger font size for main headings */
-  font-weight: 400; /* Normal weight */
+  font-weight: 300; /* Normal weight */
   color: #FF9F1C; /* Orange color */
   line-height: 1.4;
 }
 
 h2 {
   font-size: 32px; /* Slightly smaller than h1 */
-  font-weight: 400;
+  font-weight: 300;
   color: #FF9F1C; /* White color */
   margin-top: 1.5rem; /* Consistent margin for sections */
   line-height: 1.4;
@@ -34,7 +34,7 @@ h2 {
 
 h3 {
   font-size: 24px; /* Slightly smaller than h2 */
-  font-weight: 400;
+  font-weight: 300;
   color: #FF9F1C; /* Orange color */
   margin-top: 1rem;
   line-height: 1.4;

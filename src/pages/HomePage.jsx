@@ -57,13 +57,6 @@ const HomePage = () => {
           <a href="https://github.com/ShouryaSaklecha" target="_blank" rel="noopener noreferrer" className="text-[#FDFFFF]">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-
-          {/* MBSE Button */}
-          <Link to="/sunswiftVT">
-            <button className="bg-[#FDFFFF] text-black px-4 py-2 rounded-md ml-4">
-              MBSE
-            </button>
-          </Link>
         </div>
       </div>
     </div>
