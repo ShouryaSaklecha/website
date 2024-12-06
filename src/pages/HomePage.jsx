@@ -24,7 +24,7 @@ const HomePage = () => {
         </p>
         {/* <a href="/path-to-your-resume" className="mt-4">Short on Time? Get My Resume.</a> */}
         
-        <h2>Real Stuff</h2>
+        <h2>Other Really Important Things</h2>
         <p>
           Things that do not revolve around my work life:
           <br />
