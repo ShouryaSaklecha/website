@@ -3,10 +3,20 @@
 @tailwind utilities;
 
 /* Global styles for fonts and colors */
+@font-face {
+  font-family: "Stardom";
+  src: url("assets/Stardom-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-stardom {
+  font-family: "Stardom", serif;
+}
+
 html {
-  font-family: serif;
   font-size: 20px;
-  font-weight: 500;
+
   color: #FDFFFF; /* White text */
   background-color: black; /* Black background */
 }
@@ -19,14 +29,15 @@ body {
 /* Styling for h1, h2, h3, and body text */
 h1 {
   font-size: 64px; /* Larger font size for main headings */
-  font-weight: 300; /* Normal weight */
+  font-weight: 500; /* Normal weight */
   color: #FF9F1C; /* Orange color */
   line-height: 1.4;
 }
 
 h2 {
   font-size: 32px; /* Slightly smaller than h1 */
-  font-weight: 300;
+  font-family: "Stardom", serif;
+  font-weight: 400;
   color: #FF9F1C; /* White color */
   margin-top: 1.5rem; /* Consistent margin for sections */
   line-height: 1.4;
@@ -34,6 +45,8 @@ h2 {
 
 h3 {
   font-size: 24px; /* Slightly smaller than h2 */
+  font-weight: 300;
+  font-family: "Stardom", serif;
   font-weight: 300;
   color: #FF9F1C; /* Orange color */
   margin-top: 1rem;
@@ -43,6 +56,7 @@ h3 {
 p {
   color: #FDFFFF; /* White text for body */
   line-height: 1.6; /* Increased line spacing for readability */
+  font-weight: 100;
 }
 
 /* Link Styling */
