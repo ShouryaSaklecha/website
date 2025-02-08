@@ -36,12 +36,12 @@ const HomePage = () => {
   }
 
   return (
-    <div className="bg-black text-[#FDFFFF] flex flex-col md:flex-row h-screen">
+    <div className="bg-black text-[#FDFFFF] flex flex-col md:flex-row h-auto md:h-screen">
       {/* Profile Image */}
       <motion.img 
         src={profileImage} 
         alt="Profile" 
-        className="w-full md:w-1/2 h-1/2 md:h-full border-4 border-[#FDFFFF] shadow-lg object-cover" 
+        className="w-full md:w-1/2 h-auto md:h-full border-4 border-[#FDFFFF] shadow-lg object-cover" 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
@@ -49,7 +49,7 @@ const HomePage = () => {
 
       {/* Text Content */}
       <motion.div 
-        className="md:ml-8 text-left w-full md:w-1/2 h-full flex flex-col justify-start overflow-y-auto p-4"
+        className="md:ml-8 text-left w-full md:w-1/2 h-auto md:h-full flex flex-col justify-start p-4 overflow-y-auto"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
