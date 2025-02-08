@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+const linkStyle = {
+  textDecoration: 'none'
+};
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +33,7 @@ const Header = () => {
 
         {/* Title as a Link */}
         <div className="flex-grow text-center md:text-left">
-          <Link to="/" className="text-xl md:text-2xl text-[#FF9F1C]">
+          <Link to="/" className="text-xl md:text-2xl text-[#FF9F1C]" style={linkStyle}>
             Shourya Saklecha
           </Link>
         </div>
@@ -39,7 +42,7 @@ const Header = () => {
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-4 mt-2 md:mt-0 ml-auto">
         {['Education', 'Work', 'Projects', 'Contact'].map((item) => (
-          <Link key={item.toLowerCase()} to={`/${item.toLowerCase()}`} className="hover:text-orange-400">
+          <Link key={item.toLowerCase()} to={`/${item.toLowerCase()}`} className="hover:text-orange-400" style={linkStyle}>
             {item}
           </Link>
         ))}
@@ -64,7 +67,7 @@ const Header = () => {
           </div>
           <nav className="flex flex-col p-2">
             {['Education', 'Work', 'Projects', 'Contact'].map((item) => (
-              <Link key={item.toLowerCase()} to={`/${item.toLowerCase()}`} className="py-2 hover:text-orange-400">
+              <Link key={item.toLowerCase()} to={`/${item.toLowerCase()}`} className="py-2 hover:text-orange-400" style={linkStyle}>
                 {item}
               </Link>
             ))}

@@ -36,12 +36,12 @@ const HomePage = () => {
   }
 
   return (
-    <div className="bg-black text-[#FDFFFF] p-8 flex flex-col md:flex-row justify-center items-start">
+    <div className="bg-black text-[#FDFFFF] flex flex-col md:flex-row h-screen">
       {/* Profile Image */}
       <motion.img 
         src={profileImage} 
         alt="Profile" 
-        className="w-full md:w-1/3 border-4 border-[#FDFFFF] shadow-lg" 
+        className="w-full md:w-1/2 h-1/2 md:h-full border-4 border-[#FDFFFF] shadow-lg object-cover" 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
@@ -49,7 +49,7 @@ const HomePage = () => {
 
       {/* Text Content */}
       <motion.div 
-        className="md:ml-8 text-left w-full md:w-1/2"
+        className="md:ml-8 text-left w-full md:w-1/2 h-full flex flex-col justify-start overflow-y-auto p-4"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
@@ -60,7 +60,7 @@ const HomePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Hello, I am Shourya.
+          About Me
         </motion.h1>
 
         <motion.div
@@ -101,27 +101,6 @@ Others: Engineering Design | Figma | Bubble | UI/UX | Excel | Notion | Research 
             <br />
             I read quite a bit. Both fiction and non-fiction, research papers even. I have been playing guitar and bass since 2012, hoping to learn piano soon. Aviation interests me (I can identify planes in the sky), so does theology and philosophy. I like teaching kids physics and computer science, so much so that I do it for free sometimes. In 2025, I am hoping to write more, and that's mainly the purpose of this website.
           </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 4 }}
-          className="mt-6"
-        >
-          <h2 className="mt-6">Getting in Touch</h2>
-          <p>Find me on:</p>
-          <div className="mt-4 flex space-x-6 items-center">
-            <a href="https://www.linkedin.com/in/shourya-saklecha/" target="_blank" rel="noopener noreferrer" className="text-[#FDFFFF]">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </a>
-            <a href="https://x.com/Shouryasaklecha" target="_blank" rel="noopener noreferrer" className="text-[#FDFFFF]">
-              <FontAwesomeIcon icon={faTwitter} size="2x" />
-            </a>
-            <a href="https://github.com/ShouryaSaklecha" target="_blank" rel="noopener noreferrer" className="text-[#FDFFFF]">
-              <FontAwesomeIcon icon={faGithub} size="2x" />
-            </a>
-          </div>
         </motion.div>
       </motion.div>
     </div>

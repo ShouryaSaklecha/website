@@ -7,6 +7,9 @@ import ProjectsPage from './pages/ProjectsPage';
 import WorkPage from './pages/WorkPage';
 import ContactPage from './pages/ContactPage';
 import SunswiftVT from './pages/Interfacer/SunswiftVT';
+import Footer from './components/Footer';
+
+
 
 const App = () => {
   return (
@@ -24,7 +27,8 @@ const App = () => {
           {/* Define other routes here */}
         </Routes>
       </div>
-    </Router>
+      <Footer />
+      </Router>
   );
 };
 
