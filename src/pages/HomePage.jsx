@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import profileImage from "../assets/profile.jpeg"; // Adjust the path based on your folder structure
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 
 const HomePage = () => {
@@ -69,12 +67,18 @@ const HomePage = () => {
           transition={{ duration: 1, delay: 1.5 }}
         >
           <p className="mt-4">
-            Currently an FPGA Engineer building neuromorphic systems, engineered for ultra-high speeds and low power consumption. Essentially, design of custom processors for industrial grade cameras (See cuvos.com.au). I work at the intersection of Software and Hardware, building a career that can fluidly move between microelectronics and software design. True full-stack.
+            I’m an FPGA Engineer working on neuromorphic systems. These are essentially custom chips for industrial-grade cameras designed to run at high speed and low power (see{" "}
+            <a href="https://cuvos.com.au" target="_blank" rel="noreferrer" className="underline">
+              cuvos.com.au
+            </a>
+            ). My work sits at the overlap of hardware and software, and I enjoy building solutions that move fluidly between microelectronics and software design.
           </p>
           <p className="mt-4">
-            Some of the things I have worked on as a uni student: a geo-imagery satellite, world's fastest solar vehicle (and 2 other world records), Australia's first hydrogen/solar/electric car, a novel assistive device for people with Usher's syndrome, another novel luma enhancement algorithm built on hardware. Published papers, 2x scholarships, World Solar Challenge winner. Pretty eventful 4 years.
+            Earlier, at university, I was lucky to work on some meaningful projects: a geo-imagery satellite, contributions to the world’s fastest solar vehicle (and two other world records), Australia’s first hydrogen/solar/electric car, assistive tech for people with Usher’s syndrome, and a hardware luma-enhancement algorithm. I also published research, received scholarships, and took part in the World Solar Challenge. It was a full and rewarding four years.
           </p>
         </motion.div>
+
+        
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -83,10 +87,10 @@ const HomePage = () => {
         >
           <h2 className="mt-6">Working with Me</h2>
           <p>
-            I am based in Sydney, Australia. I hold a Bachelors in Computer Engineering from UNSW, with Honours. I am resourceful in the following skills/tools:
-            <p>Hardware: VHDL | Xilinx FPGAs | Vivado | Vitis HLS | RTL Design | Digital System Design | Microcontrollers | Microprocessors | Verilog | PCB Design | Matlab | Fusion360 CAD </p>
-<p>Software: Python | Java | C++ (20) | Javascript | HTML | CSS | React | Git</p>
-Others: Engineering Design | Figma | Bubble | UI/UX | Excel | Notion | Research | Formal Systems Engineering
+            I’m based in Sydney, Australia, and hold a Bachelor’s in Computer Engineering (Honours) from UNSW. Here are areas I’ve built experience in:
+            <p>Hardware: VHDL | Xilinx FPGAs | Vivado | Vitis HLS | RTL Design | Digital System Design | Microcontrollers | Verilog | PCB Design | Matlab | Fusion360 CAD</p>
+            <p>Software: Python | Java | C++ (20) | JavaScript | HTML | CSS | React | Git</p>
+            Others: Engineering Design | Figma | Bubble | UI/UX | Excel | Notion | Research | Formal Systems Engineering
           </p>
         </motion.div>
 
@@ -95,11 +99,9 @@ Others: Engineering Design | Figma | Bubble | UI/UX | Excel | Notion | Research 
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 3 }}
         >
-          <h2 className="mt-6">Other Really Important Things</h2>
+          <h2 className="mt-6">Outside of Work</h2>
           <p>
-            Things that do not revolve around my work life:
-            <br />
-            I read quite a bit. Both fiction and non-fiction, research papers even. I have been playing guitar and bass since 2012, hoping to learn piano soon. Aviation interests me (I can identify planes in the sky), so does theology and philosophy. I like teaching kids physics and computer science, so much so that I do it for free sometimes. In 2025, I am hoping to write more, and that's mainly the purpose of this website.
+            I read a mix of fiction, non-fiction, and research papers. I’ve played guitar and bass since 2012 and hope to learn piano next. Aviation has always interested me (I can usually identify planes overhead), and I enjoy exploring philosophy and theology. I also like teaching physics and computer science to high-school students and sometimes volunteer my time. In 2025, I plan to write more — one reason I started this site.
           </p>
         </motion.div>
       </motion.div>

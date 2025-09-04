@@ -8,17 +8,17 @@ const educationData = [
   {
     institution: "University of New South Wales (UNSW)",
     period: "2021 - 2024",
-    description: "Did a pretty cool degree in Computer Engineering. Won lots of money winning startup pitches, worked on Sunswift 7, winning 2 world records. Graduated with honours for my thesis: An FPGA Implementation of a Neuromorphically Engineered Temporal Image Enhancement Algorithm. Showcased as one of the Faculty’s best theses."
+    description: "Studied Computer Engineering (Electronics, FPGAs, Software Engineering). Pitched at multiple competitions, Built multi-disciplinary systems with Sunswift 7, winning the World Solar Challenge and 2 world records. Graduated with honours for my thesis: An FPGA Implementation of a Neuromorphically Engineered Temporal Image Enhancement Algorithm. Showcased as one of the Faculty’s best theses."
   },
   {
     institution: "University of British Columbia, Vancouver",
     period: "2020 - 2021",
-    description: "Started with wanting to build a career in Manufacturing Engineering. Learned Mechanics, Physics, 3D CAD. But foremost, learned to say sorry every chance I got (the Canadian had to rub on me). My passion for hardware transferred me from the great white north to the great dry south."
+    description: "Started with wanting to build a career in Manufacturing Engineering. Learned Mechanics, Physics, 3D CAD, and the art of apologising. Moved to Sydney, Australia to study hardware."
   },
   {
     institution: "Nath Valley School, Aurangabad",
     period: "2008 - 2018",
-    description: "A not-so-small school in a definetly-small city. Led the School Rock Band, Cricket Team, and played Badminton at the State level."
+    description: "Had my schooling in my home town. Led the School Rock Band, Cricket Team, and played Badminton at the State level."
   }
 ];
 

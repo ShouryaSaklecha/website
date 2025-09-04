@@ -9,6 +9,7 @@ import ContactPage from './pages/ContactPage';
 import SunswiftVT from './pages/Interfacer/SunswiftVT';
 import Footer from './components/Footer';
 import AnkiPage from './pages/AnkiPage';
+import BlogPage from './pages/BlogPage';
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/sunswiftVT" element={<SunswiftVT />} />
           <Route path="/anki" element={<AnkiPage />} />
+          <Route path="/blog" element={<BlogPage />} />
 
           {/* Define other routes here */}
         </Routes>

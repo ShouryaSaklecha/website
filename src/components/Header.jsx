@@ -7,9 +7,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  /* 🔑  Add “Anki” to your common nav array once,
-         so we don’t duplicate strings in two places. */
-  const navItems = ["Education", "Work", "Projects", "Contact", "Anki"];
+  // Primary navigation (remove direct Anki link; it will be accessible via Projects)
+  const navItems = ["Education", "Work", "Projects", "Contact"];
 
   return (
     <header className="bg-black text-[#FF9F1C] p-4 flex flex-col md:flex-row items-center justify-between relative">
@@ -37,7 +36,7 @@ const Header = () => {
         {navItems.map((item) => (
           <Link
             key={item.toLowerCase()}
-            to={`/${item.toLowerCase() === "anki" ? "anki" : item.toLowerCase()}`}
+            to={`/${item.toLowerCase()}`}
             className="hover:text-orange-400"
             style={linkStyle}
           >
@@ -61,7 +60,7 @@ const Header = () => {
             {navItems.map((item) => (
               <Link
                 key={item.toLowerCase()}
-                to={`/${item.toLowerCase() === "anki" ? "anki" : item.toLowerCase()}`}
+                to={`/${item.toLowerCase()}`}
                 className="py-2 hover:text-orange-400"
                 style={linkStyle}
                 onClick={() => setIsOpen(false)}   /* close dropdown on navigate */
