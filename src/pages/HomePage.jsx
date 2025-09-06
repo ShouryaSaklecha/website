@@ -67,9 +67,9 @@ const HomePage = () => {
           transition={{ duration: 1, delay: 1.5 }}
         >
           <p className="mt-4">
-            I’m an FPGA Engineer working on neuromorphic systems. These are essentially custom chips for industrial-grade cameras designed to run at high speed and low power (see{" "}
-            <a href="https://cuvos.com.au" target="_blank" rel="noreferrer" className="underline">
-              cuvos.com.au
+            I’m an FPGA Research Engineer working on neuromorphic systems. These are essentially bio-inspired custom chips for industrial-grade cameras (satellites, aircrafts, etc.) designed to run at high speed and low power (see{" "}
+            <a href="https://cuvos.com.au" target="_blank" rel="noreferrer">
+              Cuvos
             </a>
             ). My work sits at the overlap of hardware and software, and I enjoy building solutions that move fluidly between microelectronics and software design.
           </p>
