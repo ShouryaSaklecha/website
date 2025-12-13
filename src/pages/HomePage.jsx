@@ -1,38 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import profileImage from "../assets/profile.jpeg"; // Adjust the path based on your folder structure
 import { motion } from "framer-motion";
 
 const HomePage = () => {
-  const [showMainContent, setShowMainContent] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setShowMainContent(true);
-    }, 2000); // 2 seconds delay before transition
-  }, []);
-
-  if (!showMainContent) {
-    return (
-      <motion.div 
-        className="bg-black text-[#FDFFFF] flex justify-center items-center h-screen"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 1 }}
-      >
-        <motion.h1
-          className="font-stardom text-6xl md:text-9xl font-bold text-[#E67E22] text-center"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0, scale: 0.9 }}
-          transition={{ duration: 1 }}
-        >
-          Hello, I am Shourya.
-        </motion.h1>
-      </motion.div>
-    );
-  }
-
   return (
     <div className="bg-black text-[#FDFFFF] flex flex-col md:flex-row h-auto md:h-screen">
       {/* Profile Image */}
