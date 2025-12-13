@@ -28,7 +28,7 @@ const HomePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          About Me
+          Hi! I am Shourya
         </motion.h1>
 
         <motion.div
@@ -71,7 +71,7 @@ const HomePage = () => {
         >
           <h2 className="mt-6">Outside of Work</h2>
           <p>
-            I read a mix of fiction, non-fiction, and research papers. I’ve played guitar and bass since 2012 and hope to learn piano next. Aviation has always interested me (I can usually identify planes overhead), and I enjoy exploring philosophy and theology. I also like teaching physics and computer science to high-school students and sometimes volunteer my time. In 2025, I plan to write more — one reason I started this site.
+            I mostly spend time either reading or exploring sydney. I’ve played guitar and bass since 2012 and hope to learn piano next. Aviation has always interested me (I can usually identify planes overhead), and I enjoy exploring philosophy and theology. I also like teaching physics and computer science to school students and sometimes volunteer my time to teach underprivileged kids. In 2025, I plan to write more — one reason I started this site.
           </p>
         </motion.div>
       </motion.div>
