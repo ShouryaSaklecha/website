@@ -10,6 +10,7 @@ import SunswiftVT from './pages/Interfacer/SunswiftVT';
 import Footer from './components/Footer';
 import AnkiPage from './pages/AnkiPage';
 import BlogPage from './pages/BlogPage';
+import BlogMoment2025 from './pages/BlogMoment2025';
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/sunswiftVT" element={<SunswiftVT />} />
           <Route path="/anki" element={<AnkiPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blog/a-moment-for-2025" element={<BlogMoment2025 />} />
 
           {/* Define other routes here */}
         </Routes>
