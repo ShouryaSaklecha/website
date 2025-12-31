@@ -6,7 +6,7 @@ const BlogMoment2025 = () => {
       <div className="max-w-3xl mx-auto">
         <h1 className="font-stardom text-4xl text-[#FF9F1C] mb-6">A Moment for 2025</h1>
         <p className="mb-6">
-          I am not usually publicly retrospective; let’s start there. But I promised myself to write more this year, which is why this is probably my last opportunity to put something out there. I have 4 hours before this year ends, so please forgive my content being a year recap :p
+          I am not usually publicly retrospective; let’s start there. But I promised myself to write more this year, which is why this is probably my last opportunity to put something out there. I have 4 hours before this year ends, so please forgive my content being a year recap :p Just taking this moment to talk about my one <i>significant</i> moment this year.
         </p>
 
         <h2 className="text-2xl font-semibold mb-2">A Moment for Work</h2>
